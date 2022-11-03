@@ -9,9 +9,10 @@ const jwt = require("jsonwebtoken")
 
 const JWT_SECRET = "fpqowijfqwoifjqwop1039812301980391283"
 
-const mongoUrl = "mongodb+srv://joaosegal:joao1010@cluster0.bxlmkha.mongodb.net/myFirstDatabase" 
+const mongoUrl = "mongodb+srv://joaosegal:joao1010@cluster0.bxlmkha.mongodb.net/myFirstDatabase"
+const PORT = 3000
 
-app.listen(3000,() => {
+app.listen(PORT,() => {
     console.log("Server Started")
 })
 
