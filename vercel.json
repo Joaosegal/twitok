@@ -2,14 +2,38 @@
     "version": 2,
     "builds": [
         {
-            "src": "app.js",
+            "src": "./app.js",
             "use": "@vercel/node"
         }
     ],
     "routes":[
         {
-            "src": "app.js",
-            "dest": "/"
+            "src": "/register",
+            "dest": "/register"
+        },
+        {
+            "src": "/login",
+            "dest": "/login"
+        },
+        {
+            "src": "/userData",
+            "dest": "/userData"
+        },
+        {
+            "src": "/post",
+            "dest": "/post"
+        },
+        {
+            "src": "/getUsers",
+            "dest": "/getUsers"
+        },
+        {
+            "src": "/delete/:id",
+            "dest": "/delete/:id"
+        },
+        {
+            "src": "/post/:id",
+            "dest": "/post/:id"
         }
     ]
 }
