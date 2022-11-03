@@ -8,32 +8,8 @@
     ],
     "routes":[
         {
-            "src": "/register",
-            "dest": "/register"
-        },
-        {
-            "src": "/login",
-            "dest": "/login"
-        },
-        {
-            "src": "/userData",
-            "dest": "/userData"
-        },
-        {
-            "src": "/post",
-            "dest": "/post"
-        },
-        {
-            "src": "/getUsers",
-            "dest": "/getUsers"
-        },
-        {
-            "src": "/delete/:id",
-            "dest": "/delete/:id"
-        },
-        {
-            "src": "/post/:id",
-            "dest": "/post/:id"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
 }
